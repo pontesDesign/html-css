@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* 
+id (HTML) = # (CSS)
+class (HMTL) = . (CSS)
+
+LEMBRANDO-> Só pode haver um id, mas pode ter diversos class, inclusive, uma class dentro de um id (lembrando que o id vai sobrepor o class) e outra class dentro de uma class
+
+*/
+
+body{
+    background-color: #b7f7b7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 30px;
+    width: 900px;
+    margin: auto;
+    box-shadow: 0px 0px 30px #274927b4;
+    border: 3px solid black;
+}
+
+h1{
+    color: darkgreen;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+h1#principal{
+    font-size: 3em;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 30px #274927b4;
+    border: 3px solid black;
+}
+
+h2{
+    color:#698669
+}
+
+.basico{
+    color: #fff493;
+    background-color: rgb(131, 131, 253);
+    padding: 20px;
+    border-radius: 60px;
+}
+
+.intermediario{
+    color: #696b86;
+    background-color: rgb(255, 253, 139);
+    padding: 20px;
+    border-radius: 60px;
+}
+
+.avancado{
+    color: #46b2c0;
+}
+
+.destaque{
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 20px;
+    border-radius: 60px;
+}

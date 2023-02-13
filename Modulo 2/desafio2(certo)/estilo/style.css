@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400&display=swap');
+@font-face {
+    font-family: 'Neue';
+    src: url(../projeto/fontes/NeueMachina-Regular.otf) format('opentype');
+}
+
+:root{
+    --cor-base: #adff2f;
+    --cor-fundo: #d1ff8c;
+    --cor2: #7acc00;
+    --cor-destaque: #141210;
+
+    --fonte-texto: 'Exo 2', sans-serif;
+    --fonte-destaque: 'Neue', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor-fundo);
+}
+
+h1, h2, h3{
+    font-family: var(--fonte-destaque);
+}
+
+header{
+    background-color: var(--cor-destaque);
+    color: var(--cor-base);
+    text-align: center;
+    padding: 30px;
+    margin: 0px 0px 20px 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+header>p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+nav{
+    background-color: var(--cor-destaque);
+    color: var(--cor-base);
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 20px;
+    max-width: 1010px;
+    min-width: 320;
+
+}
+
+nav>a{
+    color: var(--cor-base);
+    text-decoration: none;
+    margin-right: 30px;
+    transition: .3s;
+}
+
+nav>a:active{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    color: var(--cor-destaque);
+}
+
+a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.288);
+    max-width: 1000px;
+    min-width: 280px;
+}
+
+main section{
+    background-color: var(--cor-destaque);
+    color: var(--cor-base);
+    padding: 20px;
+    border-radius: 15px;
+}
+.intro{
+    color: white;
+}
+main h1{
+    font-size: 1.7em;
+}
+
+
+p{
+    font-family: var(--fonte-texto);
+    text-align: justify;
+    text-indent: 10px;
+    margin: 10px;
+}
+
+abbr{
+    font-family: var(--fonte-texto);
+}
+
+a{
+    font-family: var(--fonte-texto);
+}
+a:visited{
+    text-decoration: none;
+}
+
+h2{
+    background-color: var(--cor-destaque);
+    color: var(--cor-base);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+main a{
+    background-color: var(--cor-destaque);
+    color: var(--cor-base);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+main a::after{
+    content: "🔗";
+}
+
+main p{
+    line-height: 1.7em;
+}
+
+main strong{
+    color: var(--cor2);
+}
+
+img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.imgpequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div{
+    background-color: var(--cor-destaque);
+    padding: 15px;
+    border-radius: 15px;
+    padding-bottom: 54.7%;
+    position: relative;
+}
+
+div>iframe{
+    border-radius: 15px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside{
+    background-color: var(--cor-destaque);
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.curiosidades{
+    color: var(--cor-destaque);
+    background-color: var(--cor-base);
+    padding: 7px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.lista{
+    background-color: white;
+    padding: 15px;
+    list-style-position: inside;
+    columns: 2;
+}
+
+main ul{
+    list-style-type: '\2714\00A0\00A0';
+}
+
+.curi{
+    color: white;
+}
+
+footer{
+    background-color: var(--cor-destaque);
+    color: var(--cor-base);
+    padding: 20px;
+    margin: 15px 0px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor-base);
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    text-align: center;
+}

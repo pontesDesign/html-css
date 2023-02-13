@@ -1,0 +1,42 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /*-------------------------------------------------------------------------- 
+    Tamanhos de fontes
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    
+    OBS-> é recomendavél usar o "px" e o "em", ent sempre use eles.
+    GERALMENTE-> 1em = 16px
+    GERALMENTE-> os navegadores vem com a fonte no tamanho padrão de 16px
+    ---------------------------------------------------------------------------
+    */
+    font-size: 1em;
+
+
+}
+
+h1{
+    /* 
+    ---------------------------------------------------------------------------
+    Shorhand são basicamente simplificações do meu código
+    
+    No caso, em vez de escrever:
+    --
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+    -----
+    Eu consigo resumir tudo isso em:
+    --
+    font: italic bolder 3em 'Work Sans', sans-serif;
+    -----
+    LEMBRANDO: sempre seguir a ordem de
+    font-style -> font-weight -> font-size -> font-family
+    ---------------------------------------------------------------------------
+    */
+}

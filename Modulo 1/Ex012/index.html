@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+    <h1>Videos</h1>
+    <hr>
+    <h3>hospedado local</h2>
+    <p>Este video está hospedado no meu próprio servidor.</p>
+    <video width = "560" poster="imagens/thumb1.png" controls>
+        <source src="midia/carros.mp4" type="video/mp4">
+        <source src="midia/carros-web.webm" type="video/webm">
+        <source src="midia/carros.ogv" type="video/ogg">
+        <p>Infelizmente seu navegador não é compatível com reprodução de videos</p>
+    </video>
+    <!--A ordem é completamente importante, caso o video não carregue em mp4, tentara carregar em webm e dps em ogg. Caso não consiga carregar nenhum dos arquivos mostra a msg no paragráfo-->
+
+    <hr>
+    <h2>Hospedados em outros locais</h2>
+    <p>Videos hospedados em outros servidores (YouTube e Vimeo)</p>
+    <h3>Video do YouTube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tTjTNdItQso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <h3>Video do Vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/363460747?h=0810fe8746&color=ff9933&title=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

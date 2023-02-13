@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>trabalhando com listas</h1>
+    <hr>
+    <h2>listas ordenadas</h2>
+    <p>listas ordenadas são aquelas enumeradas, sejam de 1 até qualquer numero ou de A até qualquer letra</p>
+
+    <ol>
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Trocar de roupa</li>
+        <li>Ir para o trabalho</li>
+        <li>Almoçar</li>
+        <li>Voltar a trabalhar</li>
+        <li>Terminar o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Estudar</li>
+        <li>Jantar</li>
+        <li>Escovar os dentes</li>
+        <li>Dormir</li>
+
+    </ol>
+
+    <p><strong>é possivel trocar a marcação tbm, entre Números, Letras e Números romanos usando a tag "type"</strong></p>
+    
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Trocar de roupa</li>
+ 
+    </ol>
+    <ol type="A">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Trocar de roupa</li>
+    </ol>
+    <ol type="a">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Trocar de roupa</li>
+    </ol>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Trocar de roupa</li>
+    </ol>
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Trocar de roupa</li>
+    </ol>
+
+    <p><strong>assim como é possivel iniciar a lista a partir de qualquer numero usando a tag "start"</strong></p>
+    <ol type="1" start="3">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Trocar de roupa</li>
+    </ol>
+    <ol type="A" start="3">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Trocar de roupa</li>
+    </ol>
+
+    <hr>
+    <h2>Listas não ordenadas</h2>
+    <p>são as listas que não precisam seguir uma ordem especifíca, como lista de compras</p>
+
+    <ul>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Batata</li>
+        <li>Alface</li>
+        <li>Macarrão</li>
+        <li>Tomate</li>
+    </ul>
+
+    <p><strong>assim como as outras, exitem tipos também, usando o "type"</strong></p>
+    <h3>Disc</h3>
+    <ul type="disc">
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Batata</li>
+    </ul>
+    <h3>Circle</h3>
+    <ul type="circle">
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Batata</li>
+    </ul>
+    <h3>Square</h3>
+    <ul type="square">
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Batata</li>
+    </ul>
+<hr>
+    <h2>Agora é juntando as listas, "ol" dentro de "ol" ou dentro de "ul" e enfim</h2>
+
+    <h3>Top 5 marcas de carros e seus modelos</h3>
+    <ol type="1">
+        <li>Toyota</li>
+            <ul type="square">
+                <li>Supra mk4</li>
+                <li>Supra mk3</li>
+                <li>Trueno AE86</li>
+            </ul>
+        <li>Nissan</li>
+            <ul type="square">
+                <li>Silvia s14</li>
+                <li>240z</li>
+                <li>GTR r32</li>
+            </ul>
+        <li>Aston Martin</li>
+            <ul type="square">
+                <li>One-77</li>
+                <li>V8 Vantage 1977</li>
+                <li>Victor</li>
+            </ul>
+        <li>BMW</li>
+            <ul type="square">
+                <li>M3 e30</li>
+                <li>3.0 CSL</li>
+                <li>M3 e46</li>
+            </ul>
+        <li>Pagani</li>
+            <ul type="square">
+                <li>Codalunga</li>
+                <li>Utopia</li>
+                <li>Huayra</li>
+            </ul>
+        <li>Ferrari</li>
+            <ul>
+                <li>f40</li>
+                <li>Testarossa</li>
+                <li>F8 Tributto</li>
+            </ul>
+    </ol>
+
+    <hr>
+    <h2>E por fim existem as listas de definição</h2>
+    <p>Aqui nos colocamos um termo (indicado por "dt") e logo em baixo a sua definição (indicado por "dd")</p>
+
+    <dl>
+        <dt><strong>Porsche</strong></dt>
+            <dd>Marca de automóveis alemã fundada em 25 de abril de 1931, em Stuttgart, Alemanhã.</dd>
+        <dt><strong>Puma</strong></dt>
+            <dd>Fabricante brasileiras de automóveis esportivos de pequeno porte que atuou entre 1963.</dd>
+        <dt><strong>Volkswagen</strong></dt>
+            <dd>Fabricante alemã de veículos fundada em 28 de maio de 1937 em Berlim, Alemanha.</dd>
+        <dt><strong>Lamborghini</strong></dt>
+            <dd>Fabricante italiana de automóveis esportivos e de luxo, fundada em 1963, em Sant'Agata Bolognese, Itália.</dd>
+    </dl>
+
+    <!--O certo é apenas o "dt", mas é ideal usar o "stront" para dar mais enfâse.-->
+</body>
+</html>

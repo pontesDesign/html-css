@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <title>TESTE</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Elas vão mudar de acordo com a resolução</p>
+    <hr>
+
+    <picture>
+        <source media="(max-width: 900px)" srcset="Imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1200px)" srcset="Imagens/medio.png" type="image/png">
+        <img src="Imagens/grande.png" alt="">
+    </picture>
+    
+</body>
+</html>
