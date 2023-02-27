@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 2</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        thead{
+            position: relative;
+        }
+
+        thead tr th{
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
+        tbody tr:nth-child(2n){
+            background-color: lightblue;
+        }
+        th, tr, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .num{
+            text-align: right;
+        }
+
+        thead{
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <!--
+        Hierarquia de tabela grande
+        thead
+            tr, th, td
+        tbody
+            tr, th, td
+        tfoot
+            tr, th, td
+    -->
+
+    <table>
+        <thead>
+            <th scope="col">Carros</th>
+            <th scope="col" style="width: 50px;">Cavalos</th>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td class="ferrari">Ferrari F40</td>
+                <td class="num">478cv</td>
+            </tr>
+            <tr>
+                <td class="dodge">Dodge Viper R/T</td>
+                <td class="num">406cv</td>
+            </tr>
+            <tr>
+                <td class="mclaren">Mclaren F1</td>
+                <td class="num">627cv</td>
+            </tr>
+            <tr>
+                <td class="corvette">Corvette Stringray 69</td>
+                <td class="num">430cv</td>
+            </tr>
+            <tr>
+                <td class="ferrari">Ferrari F50</td>
+                <td class="num">520cv</td>
+            </tr>
+            <tr>
+                <td class="ferrari">Ferrari Enzo</td>
+                <td class="num">660cv</td>
+            </tr>
+            <tr>
+                <td class="mclaren">Mclaren Senna</td>
+                <td class="num">800cv</td>
+            </tr>
+            <tr>
+                <td class="toyota">Toyota Chaser</td>
+                <td class="num">280cv</td>
+            </tr>
+            <tr>
+                <td class="mit">Mitsubishi EVO IX</td>
+                <td class="num">290cv</td>
+            </tr>
+            <tr>
+                <td class="mit">BMW M3 E30</td>
+                <td class="num">200cv</td>
+            </tr>
+            <tr>
+                <td class="mit">Mitsubishi Eclipse</td>
+                <td class="num">213cv</td>
+            </tr>
+            <tr>
+                <td class="mit">Mercedes 190e</td>
+                <td class="num">232cv</td>
+            </tr>
+            <tr>
+                <td class="mit">Mazda Eunos Cosmo</td>
+                <td class="num">235cv</td>
+            </tr>
+            <tr>
+                <td class="mit">Honda NSX</td>
+                <td class="num">273cv</td>
+            </tr>
+            <tr>
+                <td class="mit">Lamborghini Miura</td>
+                <td class="num">385cv</td>
+            </tr>
+            <tr>
+                <td class="mit">Lamborghini Countach</td>
+                <td class="num">455cv</td>
+            </tr>
+            <tr>
+                <td class="mit">Jaguar XJ220</td>
+                <td class="num">500cv</td>
+            </tr>
+            
+    </table>
+    
+</body>
+</html>

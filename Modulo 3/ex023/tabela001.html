@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 400px;   
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .linha1{
+            background-image: linear-gradient(45deg, red, yellow);
+            color: white;
+        }
+
+        .linha2{
+            background-image: linear-gradient(-45deg, blue, lightblue);
+            color: white;
+        }
+
+        .dado1{
+            background-image: linear-gradient(to right, purple, pink);
+            color: white;
+        }
+
+        #tabela2{
+            margin-top: 20px;
+            width: 400px;
+            height: 300px;
+        }
+
+        .dado2{
+            vertical-align: top;
+            background-image: linear-gradient(-45deg, purple, pink);
+        }
+
+        .dado3{
+            text-align: center;
+            vertical-align: top;
+            background-image: linear-gradient(to top, purple, pink);
+        }
+
+        .dado4{
+            vertical-align: top;
+            text-align: right;
+            background-image: linear-gradient(45deg, purple, pink);
+        }
+        
+        .dado5{
+            background-image: linear-gradient(to left, purple, pink);
+        }
+
+        .dado6{
+            text-align: center;
+            background-color: purple;
+            color: white;
+        }
+
+        .dado7{
+            text-align: right;
+            background-image: linear-gradient(to right, purple, pink);
+        }
+
+        .dado8{
+            vertical-align: bottom;
+            background-image: linear-gradient(-135deg, purple, pink);
+        }
+
+        .dado9{
+            vertical-align: bottom;
+            text-align: center;
+            background-image: linear-gradient(to bottom, purple, pink);
+        }
+
+        .dado10{
+            vertical-align: bottom;
+            text-align: right;
+            background-image: linear-gradient(135deg, purple, pink);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+
+    <!--
+        HIRARQUIA DE TABELAS
+        table = tabela
+            tamble row (tr) = linha
+                table data (td) = dado
+                table header (th) = titulo
+    -->
+
+    <table>
+        <tr class="linha1">
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td class="dado1">A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr class="linha2">
+            <td class="dado1">A3</td>
+            <td>B3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+        </tr>
+        <tr class="linha2">
+            <td>A5</td>
+            <td>B5</td>
+        </tr>
+        <tr>
+            <td>A6</td>
+            <td class="dado1">B6</td>
+            <td>C6</td>
+        </tr>
+        <tr class="linha1">
+            <td>A7</td>
+            <td>B7</td>
+            <td>C7</td>
+        </tr>
+    </table>
+
+    <table id="tabela2">
+        <tr>
+            <td class="dado2">A1</td>
+            <td class="dado3">B1</td>
+            <td class="dado4">C1</td>
+        </tr>
+        <tr>
+            <td class="dado5">A2</td>
+            <td class="dado6">B2</td>
+            <td class="dado7">C3</td>
+        </tr>
+        <tr>
+            <td class="dado8">A3</td>
+            <td class="dado9">B3</td>
+            <td class="dado10">C3</td>
+        </tr>
+    </table>
+</body>
+</html>
