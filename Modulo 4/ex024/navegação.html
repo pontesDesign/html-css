@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: white;
+        }
+
+        iframe{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid rgb(253, 253, 253);
+            border-radius: 20px;
+            box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 0.24);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de navegação pelo iframe</h1>
+
+    <p>Escolha uma das pags abaixo</p>
+    <ul>
+        <a href="pags-iframe/pag01.html" target="frame"><li>Pag 1➡️</li></a>
+        <a href="pags-iframe/pag02.html" target="frame"><li>Pag 2➡️</li></a>
+        <a href="pags-iframe/pag03.html" target="frame"><li>Pag 3➡️</li></a>
+    </ul>
+
+    <iframe src="" name="frame"></iframe>
+    
+</body>
+</html>
